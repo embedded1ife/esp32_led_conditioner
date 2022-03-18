@@ -6,7 +6,7 @@ This is one of those projects where it was a "problem" that I created. I decided
 
 # Details
 
-## Functionality
+## Purpose
 
 The carrier board augments an ESP32 such as this one from [Amazon](https://www.amazon.com/gp/product/B086MJGFVV), or this one from [AliExpress](https://www.aliexpress.com/item/1005001757645011.html). 
 
@@ -24,9 +24,23 @@ See included [BOM](bom.csv). It is formatted so that you may just drop it into a
 
 <image src="images/sch.png" width="80%">
 
-# ESP32 Firmware
+## ESP32 Firmware
 
-For the firmware I use [WLED] (https://kno.wled.ge/). If new to this I recommend starting [here](https://kno.wled.ge/basics/getting-started/).
+For the firmware I use [WLED](https://kno.wled.ge/). If new to this I recommend starting [here](https://kno.wled.ge/basics/getting-started/).
 
 
+# Materials
 
+<image src="images/close_up_gutter.jpg" width="80%">
+
+<image src="images/wall_mounted.jpg" width="80%">
+
+## LED Strips
+- [IP65 WS2815 12V](https://www.amazon.com/BTF-LIGHTING-Upgraded-Individually-Addressable-Non-Waterproof/dp/B07LG6KQ55)
+
+## Hardware
+- [V-Shaped Channel](https://www.amazon.com/gp/product/B07F6FKGPH) for under the gutters
+- [Low Profile Channel](https://www.amazon.com/gp/product/B07KDSYLGG) for the flat surface around the garage
+
+## Supply
+- [60W IP67](https://www.amazon.com/gp/product/B07MZP9247)
