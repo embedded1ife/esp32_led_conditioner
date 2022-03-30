@@ -27,6 +27,10 @@ Starting with the end goal: a device that is compatible with [WLED](https://kno.
 - [PCB](https://oshpark.com/shared_projects/z9dy7YqV)
 - [Components](bom.csv) from [Digikey](https://www.digikey.com/)
 
+## ESP32
+- [Amazon](https://www.amazon.com/gp/product/B086MJGFVV) or
+- [AliExpress](https://www.aliexpress.com/item/1005001757645011.html)
+
 ## LED Strips
 - [IP65 WS2815 12V](https://www.amazon.com/BTF-LIGHTING-Upgraded-Individually-Addressable-Non-Waterproof/dp/B07LG6KQ55)
 
