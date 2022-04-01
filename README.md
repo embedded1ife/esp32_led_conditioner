@@ -13,9 +13,10 @@ Starting with the end goal: a device that is compatible with [WLED](https://kno.
 - Provide connection for bare wire, or barrel jack (for interior use such as kitchen cabinets), from supply
 - Provide connection for bare wire to LED strips
 - Provide some voltage and current protection
-- Step down input voltage to a level the LDO on the ESP32 can tolerate (5V)
+- Support both 5V and 12V LEDs
+- For teh 12V LEDs step down input voltage to a level that the LDO on the ESP32 NodeMCU can tolerate (5V)
   - The voltage regulator has the ability to run at 100% duty cycle making the board 5V and 12V compatible
-- Step up the data line voltage to 5V
+- Step up the data line to the LEDs from 3.3V to 5V
 - All fit inside a [IP68 Box](https://www.amazon.com/gp/product/B07TGHYQF4)
 
 # Materials
@@ -33,6 +34,7 @@ Starting with the end goal: a device that is compatible with [WLED](https://kno.
 
 ## LED Strips
 - [IP65 WS2815 12V](https://www.amazon.com/BTF-LIGHTING-Upgraded-Individually-Addressable-Non-Waterproof/dp/B07LG6KQ55)
+  - I picked the WS2815 due to it being a 12V strip and thus reducing the need for power injection
 
 ## Hardware
 - [IP68 Box](https://www.amazon.com/gp/product/B07TGHYQF4)
@@ -41,6 +43,7 @@ Starting with the end goal: a device that is compatible with [WLED](https://kno.
 
 ## Supply
 - [60W IP67](https://www.amazon.com/gp/product/B07MZP9247)
+  - You will want a supply that matches the LEDs voltage because the board just passes the supply voltage on to the LEDs
 
 ## ESP32 Firmware
 
