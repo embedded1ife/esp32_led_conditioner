@@ -62,3 +62,6 @@ For the firmware I use [WLED](https://kno.wled.ge/). If new to this I recommend 
 
 # Tips
 - For the flat aluminum channel around the garage, with about 1/8" of the side of the channel exposed, I wanted it to blend in with the white trim. I ended up using some [self etching primer](https://www.lowes.com/pd/Rust-Oleum-Stops-Rust-Flat-Gray-Spray-Primer-Actual-Net-Contents-12-oz/3728805), and white spray paint.
+- After a year of having them up I had a problem where one strip would fade out 50% of the way down the strip, and the other the last 10% of the strip would not turn on. The problem ended up being that I did not protect the cut ends of the led strip and weather had caused them to short out. The image below is of my fix but you can see the chared remains from what happened.
+
+<image src="images/burn_50_90.jpg" width="30%">
